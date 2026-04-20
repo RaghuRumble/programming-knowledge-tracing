@@ -1,0 +1,125 @@
+Namespace(gpu=0, EPOCH=300, fold=1, dataset='codeforces', set_seed=True, batch_size=1, init_lr=0.005, weight_decay=0.0001, concept_embed_dim=64, max_len=10, ast_dim=128, num_concepts=37, num_problems=7152, seqlen=200, hidden_dim=64, hidden_layers=2, max_tokens=32973, ast_embed_dim=128, ast_encode_dim=128)
+../../data/codeforces/astnn/astnn_train1
+../../data/codeforces/astnn/astnn_valid1
+device: 0
+Epoch 1/300, loss : 0.68294, auc : 0.58729, accuracy : 0.56110
+Epoch 1/300, valid auc : 0.60939, valid accuracy : 0.58010
+0.0000 to 0.6094
+Epoch 2/300, loss : 0.67753, auc : 0.60473, accuracy : 0.57471
+Epoch 2/300, valid auc : 0.53469, valid accuracy : 0.51997
+Epoch 3/300, loss : 0.66624, auc : 0.63404, accuracy : 0.59631
+Epoch 3/300, valid auc : 0.68509, valid accuracy : 0.64384
+0.6094 to 0.6851
+Epoch 4/300, loss : 0.63737, auc : 0.68895, accuracy : 0.65055
+Epoch 4/300, valid auc : 0.68951, valid accuracy : 0.65044
+0.6851 to 0.6895
+Epoch 5/300, loss : 0.63015, auc : 0.69744, accuracy : 0.65286
+Epoch 5/300, valid auc : 0.68881, valid accuracy : 0.64520
+Epoch 6/300, loss : 0.62889, auc : 0.69937, accuracy : 0.65590
+Epoch 6/300, valid auc : 0.68871, valid accuracy : 0.64529
+Epoch 7/300, loss : 0.62756, auc : 0.70205, accuracy : 0.66046
+Epoch 7/300, valid auc : 0.69542, valid accuracy : 0.65141
+0.6895 to 0.6954
+Epoch 8/300, loss : 0.62374, auc : 0.70641, accuracy : 0.66158
+Epoch 8/300, valid auc : 0.69620, valid accuracy : 0.65277
+0.6954 to 0.6962
+Epoch 9/300, loss : 0.62223, auc : 0.70819, accuracy : 0.66323
+Epoch 9/300, valid auc : 0.69728, valid accuracy : 0.65384
+0.6962 to 0.6973
+Epoch 10/300, loss : 0.62006, auc : 0.71001, accuracy : 0.66350
+Epoch 10/300, valid auc : 0.69626, valid accuracy : 0.65540
+Epoch 11/300, loss : 0.61782, auc : 0.71272, accuracy : 0.66515
+Epoch 11/300, valid auc : 0.69931, valid accuracy : 0.65783
+0.6973 to 0.6993
+Epoch 12/300, loss : 0.61600, auc : 0.71492, accuracy : 0.66693
+Epoch 12/300, valid auc : 0.69883, valid accuracy : 0.65841
+Epoch 13/300, loss : 0.61397, auc : 0.71676, accuracy : 0.66871
+Epoch 13/300, valid auc : 0.69815, valid accuracy : 0.65608
+Epoch 14/300, loss : 0.61289, auc : 0.71694, accuracy : 0.66660
+Epoch 14/300, valid auc : 0.69923, valid accuracy : 0.65851
+Epoch 15/300, loss : 0.60960, auc : 0.72097, accuracy : 0.66944
+Epoch 15/300, valid auc : 0.69988, valid accuracy : 0.65957
+0.6993 to 0.6999
+Epoch 16/300, loss : 0.60703, auc : 0.72312, accuracy : 0.67142
+Epoch 16/300, valid auc : 0.69942, valid accuracy : 0.65967
+Epoch 17/300, loss : 0.60330, auc : 0.72660, accuracy : 0.67228
+Epoch 17/300, valid auc : 0.69577, valid accuracy : 0.65268
+Epoch 18/300, loss : 0.60019, auc : 0.72890, accuracy : 0.67162
+Epoch 18/300, valid auc : 0.69834, valid accuracy : 0.65996
+Epoch 19/300, loss : 0.59491, auc : 0.73304, accuracy : 0.67651
+Epoch 19/300, valid auc : 0.69828, valid accuracy : 0.65802
+Epoch 20/300, loss : 0.58988, auc : 0.73830, accuracy : 0.67691
+Epoch 20/300, valid auc : 0.69339, valid accuracy : 0.65443
+test auc : 0.69591, test accuracy : 0.65493
+Namespace(gpu=0, EPOCH=300, fold=1, dataset='codeforces', set_seed=True, batch_size=1, init_lr=0.005, weight_decay=0.0001, concept_embed_dim=64, max_len=10, ast_dim=128, num_concepts=37, num_problems=7152, seqlen=200, hidden_dim=64, hidden_layers=2, max_tokens=32973, ast_embed_dim=128, ast_encode_dim=128)
+../../data/codeforces/astnn/astnn_train1
+../../data/codeforces/astnn/astnn_valid1
+device: 0
+Epoch 1/300, loss : 0.68294, auc : 0.58729, accuracy : 0.56110
+Epoch 1/300, valid auc : 0.60939, valid accuracy : 0.58010
+0.0000 to 0.6094
+Epoch 2/300, loss : 0.67753, auc : 0.60473, accuracy : 0.57471
+Epoch 2/300, valid auc : 0.53469, valid accuracy : 0.51997
+Epoch 3/300, loss : 0.66624, auc : 0.63404, accuracy : 0.59631
+Epoch 3/300, valid auc : 0.68509, valid accuracy : 0.64384
+0.6094 to 0.6851
+Epoch 4/300, loss : 0.63737, auc : 0.68895, accuracy : 0.65055
+Epoch 4/300, valid auc : 0.68951, valid accuracy : 0.65044
+0.6851 to 0.6895
+Epoch 5/300, loss : 0.63015, auc : 0.69744, accuracy : 0.65286
+Epoch 5/300, valid auc : 0.68881, valid accuracy : 0.64520
+Epoch 6/300, loss : 0.62889, auc : 0.69937, accuracy : 0.65590
+Epoch 6/300, valid auc : 0.68871, valid accuracy : 0.64529
+Epoch 7/300, loss : 0.62756, auc : 0.70205, accuracy : 0.66046
+Epoch 7/300, valid auc : 0.69542, valid accuracy : 0.65141
+0.6895 to 0.6954
+Epoch 8/300, loss : 0.62374, auc : 0.70641, accuracy : 0.66158
+Epoch 8/300, valid auc : 0.69620, valid accuracy : 0.65277
+0.6954 to 0.6962
+Epoch 9/300, loss : 0.62223, auc : 0.70819, accuracy : 0.66323
+Epoch 9/300, valid auc : 0.69728, valid accuracy : 0.65384
+0.6962 to 0.6973
+Epoch 10/300, loss : 0.62006, auc : 0.71001, accuracy : 0.66350
+Epoch 10/300, valid auc : 0.69626, valid accuracy : 0.65540
+Epoch 11/300, loss : 0.61782, auc : 0.71272, accuracy : 0.66515
+Epoch 11/300, valid auc : 0.69931, valid accuracy : 0.65783
+0.6973 to 0.6993
+Epoch 12/300, loss : 0.61600, auc : 0.71492, accuracy : 0.66693
+Epoch 12/300, valid auc : 0.69883, valid accuracy : 0.65841
+Epoch 13/300, loss : 0.61397, auc : 0.71676, accuracy : 0.66871
+Epoch 13/300, valid auc : 0.69815, valid accuracy : 0.65608
+Epoch 14/300, loss : 0.61289, auc : 0.71694, accuracy : 0.66660
+Epoch 14/300, valid auc : 0.69923, valid accuracy : 0.65851
+Epoch 15/300, loss : 0.60960, auc : 0.72097, accuracy : 0.66944
+Epoch 15/300, valid auc : 0.69988, valid accuracy : 0.65957
+0.6993 to 0.6999
+Epoch 16/300, loss : 0.60703, auc : 0.72312, accuracy : 0.67142
+Epoch 16/300, valid auc : 0.69942, valid accuracy : 0.65967
+Epoch 17/300, loss : 0.60330, auc : 0.72660, accuracy : 0.67228
+Epoch 17/300, valid auc : 0.69577, valid accuracy : 0.65268
+Epoch 18/300, loss : 0.60019, auc : 0.72890, accuracy : 0.67162
+Epoch 18/300, valid auc : 0.69834, valid accuracy : 0.65996
+Epoch 19/300, loss : 0.59491, auc : 0.73304, accuracy : 0.67651
+Epoch 19/300, valid auc : 0.69828, valid accuracy : 0.65802
+Epoch 20/300, loss : 0.58988, auc : 0.73830, accuracy : 0.67691
+Epoch 20/300, valid auc : 0.69339, valid accuracy : 0.65443
+test auc : 0.69591, test accuracy : 0.65493
+Namespace(gpu=0, EPOCH=300, fold=1, dataset='codeforces', set_seed=True, batch_size=1, init_lr=0.005, weight_decay=0.0001, concept_embed_dim=64, max_len=10, ast_dim=128, num_concepts=37, num_problems=7152, seqlen=200, hidden_dim=64, hidden_layers=2, max_tokens=32973, ast_embed_dim=128, ast_encode_dim=128)
+../../data/codeforces/astnn/astnn_train1
+../../data/codeforces/astnn/astnn_valid1
+device: 0
+Epoch 1/300, loss : 0.68294, auc : 0.58729, accuracy : 0.56110
+Epoch 1/300, valid auc : 0.60939, valid accuracy : 0.58010
+0.0000 to 0.6094
+Epoch 2/300, loss : 0.67753, auc : 0.60473, accuracy : 0.57471
+Epoch 2/300, valid auc : 0.53469, valid accuracy : 0.51997
+Epoch 3/300, loss : 0.66624, auc : 0.63404, accuracy : 0.59631
+Epoch 3/300, valid auc : 0.68509, valid accuracy : 0.64384
+0.6094 to 0.6851
+Epoch 4/300, loss : 0.63737, auc : 0.68895, accuracy : 0.65055
+Epoch 4/300, valid auc : 0.68951, valid accuracy : 0.65044
+0.6851 to 0.6895
+Epoch 5/300, loss : 0.63015, auc : 0.69744, accuracy : 0.65286
+Epoch 5/300, valid auc : 0.68881, valid accuracy : 0.64520
+Epoch 6/300, loss : 0.62889, auc : 0.69937, accuracy : 0.65590
+Epoch 6/300, valid auc : 0.68871, valid accuracy : 0.64529
