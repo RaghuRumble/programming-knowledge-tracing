@@ -1,0 +1,81 @@
+{
+  "baseline": {
+    "description": "Original parameters",
+    "batch_size": 1,
+    "init_lr": 0.01,
+    "weight_decay": 0.00001,
+    "hidden_dim": 64,
+    "hidden_layers": 2,
+    "node_embed_dim": 64,
+    "concept_embed_dim": 128,
+    "num_nodes": 200,
+    "ggnn_layers": 4,
+    "dropout": 0.0,
+    "optimizer_type": "adam",
+    "expected_improvement": "baseline"
+  },
+  
+  "recommended_v1": {
+    "description": "Improved batch size and learning rate",
+    "batch_size": 4,
+    "init_lr": 0.01,
+    "weight_decay": 0.00001,
+    "hidden_dim": 64,
+    "hidden_layers": 2,
+    "node_embed_dim": 64,
+    "concept_embed_dim": 128,
+    "num_nodes": 200,
+    "ggnn_layers": 4,
+    "dropout": 0.1,
+    "optimizer_type": "adam",
+    "expected_improvement": "Better batch statistics, slight regularization with dropout"
+  },
+  
+  "recommended_v2": {
+    "description": "Higher capacity with regularization",
+    "batch_size": 8,
+    "init_lr": 0.005,
+    "weight_decay": 0.0001,
+    "hidden_dim": 128,
+    "hidden_layers": 2,
+    "node_embed_dim": 128,
+    "concept_embed_dim": 128,
+    "num_nodes": 200,
+    "ggnn_layers": 5,
+    "dropout": 0.2,
+    "optimizer_type": "adam",
+    "expected_improvement": "Higher model capacity with stronger regularization"
+  },
+  
+  "recommended_v3": {
+    "description": "SGD with momentum and higher dropout",
+    "batch_size": 8,
+    "init_lr": 0.01,
+    "weight_decay": 0.0001,
+    "hidden_dim": 96,
+    "hidden_layers": 2,
+    "node_embed_dim": 96,
+    "concept_embed_dim": 128,
+    "num_nodes": 200,
+    "ggnn_layers": 4,
+    "dropout": 0.15,
+    "optimizer_type": "sgd",
+    "expected_improvement": "SGD with momentum often converges better for certain problems"
+  },
+
+  "aggressive_tuning": {
+    "description": "Aggressive model with strong regularization",
+    "batch_size": 16,
+    "init_lr": 0.001,
+    "weight_decay": 0.0001,
+    "hidden_dim": 128,
+    "hidden_layers": 2,
+    "node_embed_dim": 128,
+    "concept_embed_dim": 128,
+    "num_nodes": 200,
+    "ggnn_layers": 5,
+    "dropout": 0.3,
+    "optimizer_type": "adam",
+    "expected_improvement": "Largest model tested with highest regularization - good for overfitting"
+  }
+}
